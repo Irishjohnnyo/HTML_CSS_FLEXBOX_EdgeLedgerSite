@@ -1,0 +1,176 @@
+/* Text Colors */
+
+.text-primary {
+  color: #28a745;
+}
+
+.text-secondary {
+  color: #0284d0;
+}
+
+/* Backgrounds */
+
+.bg-primary {
+  background: #28a745;
+  color: #fff;
+}
+
+.bg-secondary {
+  background: #0284d0;
+  color: #fff;
+}
+
+.bg-grey {
+  background: #f4f4f4;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+/* Buttons */
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+
+
+.btn-outline {
+  background-color: transparent;
+  border: solid 1px #fff;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+   
+}
+
+
+
+.btn-dark {
+  background: #333;
+  color: #fff;
+}
+
+.btn-light {
+  background: #fff;
+  color: #333;
+}
+
+/* Flex-Items */
+
+.flex-items {
+  
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  
+
+}
+
+.flex-items > div {
+  padding: 10px 20px;
+}
+
+/* Flex Columns */
+
+.flex-columns.flex-reverse .row {
+  flex-direction: row-reverse;
+}
+
+.flex-columns .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+.flex-columns .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.flex-columns img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flex-columns .column-1 {
+  height: 100%;
+}
+.flex-columns .column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+  height: 100%;
+}
+
+.flex-columns .column-2 h2 {
+  font-size: 2.5rem;
+  padding: 10px 0;
+}
+
+.flex-columns .column-2 p {
+  padding-bottom: 10px;
+}
+
+/* Section Header */
+
+.section-header {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.section-header h2 {
+  font-size: 2.5rem;
+  padding: 20px 0;
+}
+
+.section-padding {
+  padding: 40px 20px;
+}
+
+/* Flex Grid */
+
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  
+}
+
+.flex-grid .column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+
+
+
